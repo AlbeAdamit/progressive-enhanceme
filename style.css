@@ -58,28 +58,28 @@ a:hover{
 h1{
     color: blueviolet;
 }
-ul {
+ol {
     display: inline-block;
 }
 
-ul li{
+ol li{
     margin: 5px auto;
     padding-right: 25px;
 }
 
-ul li:nth-child(1){
+ol li:nth-child(1){
     background-image: url(bien.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
 }
-ul li:nth-child(2){
+ol li:nth-child(2){
     background-image: url(mal.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
 }
-ul li:nth-child(3){
+ol li:nth-child(3){
     background-image: url(chat.png);
     background-repeat: no-repeat;
     background-size: contain;
