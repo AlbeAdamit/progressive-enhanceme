@@ -52,10 +52,26 @@ h1{
     text-align: center;
     color: black;
     border: 5px solid red;
+    background-color: white;
+}
+.tableau tr:nth-child(even){
+    color: black;
+    background-color: grey;
+}
+q{
+    font-style: italic;
 }
 q.quotesF{
     border-left: 3px solid blueviolet;
 }
 q.quotesN{
     border-left: 3px solid gold;
+}
+.good{
+    color: green;
+    text-transform: uppercase;
+}
+.bad{
+    color: red;
+    text-transform: uppercase;
 }
