@@ -1,4 +1,4 @@
-header{
+header > h1:first-child {
     background-color: yellow;
 }
 body{
@@ -6,10 +6,10 @@ body{
     margin: 75px;
     background: -webkit-radial-gradient(rgb(0, 134, 255), rgb(211, 223, 235));
     background: radial-gradient(rgb(0, 134, 255), rgb(211, 223, 235));
-    background-image: url(https://i.pinimg.com/originals/f6/30/54/f63054ebccca854e4fd7100b35b253ca.png);
+   /* background-image: url(https://i.pinimg.com/originals/f6/30/54/f63054ebccca854e4fd7100b35b253ca.png);
     background-position: bottom right;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+     background-size: cover; */
 }
 blockquote{
     width: 50%;
@@ -29,11 +29,22 @@ blockquote.story{
     border: none;
     color: rgb(184, 11, 175);
 }
+li {
+    list-style-type: none;
+}
 
+li:before {
+    content: "- ";
+}
 p{
     color: rgb(184, 11, 175);
     font-style: serif larger;
     padding: 5px;
+}
+p:first-of-type{
+    font-weight: bold;
+    display: inline-block;
+    justify-content: center;
 }
 a:link{
     color: darkgoldenrod;
@@ -46,6 +57,33 @@ a:hover{
 }
 h1{
     color: blueviolet;
+}
+ul {
+    display: inline-block;
+}
+
+ul li{
+    margin: 5px auto;
+    padding-right: 25px;
+}
+
+ul li:nth-child(1){
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+ul li:nth-child(2){
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+ul li:nth-child(3){
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 .tableau{
     text-align: center;
