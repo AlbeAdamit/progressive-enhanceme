@@ -1,0 +1,61 @@
+header{
+    background-color: yellow;
+}
+body{
+    width: 90%;
+    margin: 75px;
+    background: -webkit-radial-gradient(rgb(0, 134, 255), rgb(211, 223, 235));
+    background: radial-gradient(rgb(0, 134, 255), rgb(211, 223, 235));
+    background-image: url(https://i.pinimg.com/originals/f6/30/54/f63054ebccca854e4fd7100b35b253ca.png);
+    background-position: bottom right;
+   
+    background-repeat: no-repeat;
+
+}
+blockquote{
+    width: 50%;
+    background-color: lightgrey;
+    border-left: 3px solid firebrick;
+    font-size: 160%;
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+blockquote.story{
+    width: 100%;
+    font-size: 100%;
+    margin: auto;
+    padding: 0px;
+    background: none;
+    border: none;
+    color: rgb(184, 11, 175);
+}
+
+p{
+    color: rgb(184, 11, 175);
+    font-style: serif larger;
+    padding: 5px;
+}
+a:link{
+    color: darkgoldenrod;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: magenta;
+}
+h1{
+    color: blueviolet;
+}
+.tableau{
+    text-align: center;
+    color: black;
+    border: 5px solid red;
+}
+q.quotesF{
+    border-left: 3px solid blueviolet;
+}
+q.quotesN{
+    border-left: 3px solid gold;
+}
