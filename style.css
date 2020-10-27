@@ -8,9 +8,8 @@ body{
     background: radial-gradient(rgb(0, 134, 255), rgb(211, 223, 235));
     background-image: url(https://i.pinimg.com/originals/f6/30/54/f63054ebccca854e4fd7100b35b253ca.png);
     background-position: bottom right;
-   
     background-repeat: no-repeat;
-
+    /* background-size: cover; */
 }
 blockquote{
     width: 50%;
