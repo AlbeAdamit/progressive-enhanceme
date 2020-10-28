@@ -58,15 +58,23 @@ a:hover{
 h1{
     color: blueviolet;
 }
+.flex1{
+    box-sizing: border-box;
+    display: flex;
+}
+.listeFlex{
+
+}
+.imageFlex1{
+    size: 100px;
+}
 ol {
     display: inline-block;
 }
-
 ol li{
     margin: 5px auto;
     padding-right: 25px;
 }
-
 ol li:nth-child(1){
     background-image: url(bien.png);
     background-repeat: no-repeat;
