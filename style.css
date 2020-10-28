@@ -59,14 +59,36 @@ h1{
     color: blueviolet;
 }
 .flex1{
-    box-sizing: border-box;
+    height: 400px;
+    box-sizing: content-box;
     display: flex;
+    justify-content: center;
+    
 }
-.listeFlex{
-
+.imageFlex1, .listeFlex{
+    height: 300px;
+    width: 300px;
+    margin: 45px;
 }
-.imageFlex1{
-    size: 100px;
+.imageFlex1 img{
+    max-width: 150%;
+}
+.flex2 {
+    width: 100%;
+    height: 150%;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.imageFlex2, .text1{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+.imageFlex2 img{
+    max-width: 200%;
 }
 ol {
     display: inline-block;
