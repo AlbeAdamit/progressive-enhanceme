@@ -11,6 +11,5 @@ I followed the guidelines from the previous README.md and checked a few sites li
 
 ## Wich languages ?
 -HTML
-
 -CSS
 
